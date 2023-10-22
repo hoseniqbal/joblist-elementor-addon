@@ -245,9 +245,9 @@ class Elementor_Job_List extends \Elementor\Widget_Base {
       width: 87%;
     }
     .table-data {
-      padding-top: 7px;
-      padding-bottom: 5px;
-    }
+     padding: 10px;
+     font-size: 15px;
+	}
     .table {
       width:100%;
       border:1px solid #EEEEEE;
@@ -289,6 +289,7 @@ class Elementor_Job_List extends \Elementor\Widget_Base {
     padding-bottom: 7px;
     margin-top: 5px;
     font-weight: bold;
+    padding-left: 10px;
 }
     .job_listing_footer {
       background-color: #165EA1;
@@ -308,6 +309,9 @@ class Elementor_Job_List extends \Elementor\Widget_Base {
       font-size: 30px;
       color: #fff;
 	}
+	.job_listing_footer p {
+     font-size: 15px;
+    }
     
     @media only screen and (max-width: 1024px) {
       h2.job_ready_program {
