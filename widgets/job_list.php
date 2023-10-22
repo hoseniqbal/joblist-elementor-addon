@@ -163,13 +163,13 @@ class Elementor_Job_List extends \Elementor\Widget_Base {
               <?php foreach ( $settings['student_info_list'] as $index => $item ) : ?>
                 <div class="table-row">		
                   <div class="table-data sn"><?php echo ++$index;?></div>
-                  <div class="table-data job"><?php echo $item[title];?></div>
-                  <div class="table-data location"><?php echo $item[location];?></div>
+                  <div class="table-data job"><?php echo $item['title'];?></div>
+                  <div class="table-data location"><?php echo $item['location'];?></div>
                   <div class="table-data link">
-                    <a class="link-data" target="_blank" href="<?php echo $item[link][url];?>">
-                      <?php echo $item[link][url];?>
+                    <a class="link-data" target="_blank" href="<?php echo $item['link']['url'];?>">
+                      <?php echo $item['link']['url'];?>
                     </a>  
-                    <a class="link-btn" target="_blank" href="<?php echo $item[link][url];?>">
+                    <a class="link-btn" target="_blank" href="<?php echo $item['link']['url'];?>">
                       More Info
                     </a>  
                   </div>
